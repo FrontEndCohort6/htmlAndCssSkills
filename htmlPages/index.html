@@ -15,31 +15,67 @@
     
     <main>
         <section>
-            <h2>Apple</h2>
-            <img src="../images/image1.jpg" alt="Apple">
-           
+            <div>
+                <h2>Apple</h2>
+                <img src="../images/image10.jpg" alt="Apple">
+            </div>
+            
+            <div>
+                <h2>Orange</h2>
+                <img src="../images/image8.jpg" alt="Banana">   
+            </div>
+            
+            <div>
+                <h2>An egg</h2>
+                <img src="../images/image3.jpg" alt="Orange">
+            </div>
         </section>
-        
         <section>
-            <h2>Banana</h2>
-            <img src="../images/image2.jpg" alt="Banana">
-           
-        </section>
-        
-        <section>
-            <h2>Orange</h2>
-            <img src="../images/image3.jpg" alt="Orange">
-           
+            <div class="carousel">
+                <div class="carousel__item ">
+                    <img src="../images/image1.jpg" alt="...">
+                </div>
+                       
+                <div class="carousel__item carousel__item--selected">
+                    <img src="../images/image10.jpg" alt="...">
+                </div>
+                <div class="carousel__item">
+                    <img src="../images/image4.jpg" alt="...">
+                </div>
+                <div class="carousel__item">
+                    <img src="../images/image5.jpg" alt="...">
+                </div>
+                <div class="carousel__item">
+                    <img src="../images/image6.jpg" alt="...">
+                </div>
+                <div class="carousel__item">
+                    <img src="../images/image7.jpg" alt="...">
+                </div>
+                <div class="carousel__item">
+                    <img src="../images/image8.jpg" alt="...">
+                </div>
+                <div class="carousel__item">
+                    <img src="../images/image3.jpg" alt="...">
+                </div>
+                <div class="carousel__nav">
+                    <span class="carousel__button"></span>
+                    <span class="carousel__button carousel__button--selected"></span>
+                    <span class="carousel__button"></span>
+                </div>
+        </div>
         </section>
     </main>
     
     <footer>
         <p>&copy; 2024 Fruit Health Benefits. All rights reserved.</p>
         <form>
-            <label for="email">Subscribe to our newsletter:</label>
+            <label for="email">
+                Subscribe to our newsletter:
+            </label>
             <input type="email" id="email" name="email" placeholder="Enter your email">
             <button type="submit">Subscribe</button>
         </form>
     </footer>
+    <script src="main.js"></script> 
 </body>
 </html>
