@@ -106,3 +106,44 @@ footer button:hover {
     background: rgba(255, 255, 255, 0.5);
 }
   
+/* Css by Fatuma */
+
+.transform1 {
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trans {
+    display: flex;
+    margin: 0;
+}
+.trans img {
+    max-width: 100rem;
+
+}
+.transform1 h1 {
+    text-align: left;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Playfair Display", serif;
+}
+.transform1 p {
+    width: 400px;
+    text-align: left;
+    line-height: 30px;
+}
+.transform1 .learn {
+    text-align: left;
+    margin-left: -290px;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    color: #000;
+    border-bottom: 4px solid yellow;
+    
+}
