@@ -106,3 +106,45 @@ footer button:hover {
     background: rgba(255, 255, 255, 0.5);
 }
   
+/* Css for section 3 */
+
+.glass-section img{
+    max-width: 100rem;
+}
+.sections4 {
+    margin: 0;
+}
+.wine {
+    width: 50%;
+}
+.glass-section {
+    display: flex;
+}
+.main-stand {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+.stand {
+    width: 500px;
+}
+.stand h1 {
+    text-align: left;
+    font-weight: 900;
+    line-height: 30px;
+    font-family: "Playfair Display", serif;
+}
+.stand p {
+    width: 400px;
+    text-align: left;
+    line-height: 30px;
+}
+.stand a {
+    margin-left: -380px;
+    text-decoration: none;
+    font-weight: 800;
+    color: #000;
+    border-bottom: 4px solid red;
+}
